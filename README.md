@@ -13,7 +13,7 @@ Sumário
 
 1. Descrição do Projeto:
 
-    Este projeto tem como objetivo explorar dados sobre óbitos por capítulos da CID-10 no Brasil, realizando as seguintes etapas:
+Este projeto tem como objetivo explorar dados sobre óbitos por capítulos da CID-10 no Brasil, realizando as seguintes etapas:
 
     1.1 Carregamento e limpeza dos dados: Arquivos CSV contendo informações de óbitos por município e ano.
     1.2 Transformação dos dados: Geração de uma coluna de categorias baseada no total de óbitos.
@@ -22,7 +22,7 @@ Sumário
 
 2. Estrutura dos Dados:
 
-    Os dados utilizados foram extraídos do Datasus e possuem os seguintes campos principais:
+Os dados utilizados foram extraídos do Datasus e possuem os seguintes campos principais:
 
     2.1 Colunas: Capítulos da CID-10 representando causas de óbito.
     2.2 Linhas: Anos 2015 a 2020.
@@ -32,7 +32,7 @@ Sumário
 
 3. Pré-Processamento:
 
-    As principais etapas de pré-processamento incluem:
+As principais etapas de pré-processamento incluem:
 
     3.1 Renomeação das colunas: Mapear os capítulos da CID-10 para suas respectivas descrições.
     3.2 Transposição do DataFrame: Facilitar a análise e manipulação.
@@ -41,16 +41,16 @@ Sumário
 
 4. Modelos Utilizados:
 
-    4.1 Random Forest
+4.1 Random Forest
     Otimização de hiperparâmetros com GridSearchCV.
     Identificação das variáveis mais importantes para a classificação.
 
-    4.2 Naive Bayes
+4.2 Naive Bayes
     Simplicidade e eficiência em cenários com grandes conjuntos de dados categóricos.
 
 5. Visualizações e Resultados:
 
-    O projeto inclui as seguintes visualizações:
+O projeto inclui as seguintes visualizações:
 
     Matriz de confusão: Avaliação do desempenho dos modelos.
     Importância das variáveis: Identificação dos capítulos da CID-10 mais relevantes para a classificação.
@@ -62,13 +62,13 @@ Sumário
 
 6. Como Executar:
 
-    1. Clone este repositório:
+6.1 Clone este repositório:
     git clone https://github.com/MMoreira020/Classifica-o_Datasus.git
 
-    2. Instale os pacotes necessários:
+6.2 Instale os pacotes necessários:
     pip install -r requirements.txt
 
-    3. Execute o script principal:
+6.3 Execute o script principal:
     python main.py
 
 
