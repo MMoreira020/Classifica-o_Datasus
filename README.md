@@ -47,34 +47,34 @@ As principais etapas de pré-processamento incluem:
 
 4. Modelos Utilizados:
 
-4.1 Random Forest
+    4.1 Random Forest
     Otimização de hiperparâmetros com GridSearchCV.
     Identificação das variáveis mais importantes para a classificação.
 
-4.2 Naive Bayes
+    4.2 Naive Bayes
     Simplicidade e eficiência em cenários com grandes conjuntos de dados categóricos.
 
 5. Visualizações e Resultados:
 
 O projeto inclui as seguintes visualizações:
 
-    Matriz de confusão: Avaliação do desempenho dos modelos.
+    5.1 Matriz de confusão: Avaliação do desempenho dos modelos.
     Importância das variáveis: Identificação dos capítulos da CID-10 mais relevantes para a classificação.
 
-    Resultados Obtidos:
+    5.2 Resultados Obtidos:
 
     Métricas: Relatórios de classificação com precisão, recall e F1-score.
     Validação cruzada: Desempenho médio e desvio padrão para os modelos.
 
 6. Como Executar:
 
-6.1 Clone este repositório:
+    6.1 Clone este repositório:
     git clone https://github.com/MMoreira020/Classifica-o_Datasus.git
 
-6.2 Instale os pacotes necessários:
+    6.2 Instale os pacotes necessários:
     pip install -r requirements.txt
 
-6.3 Execute o script principal:
+    6.3 Execute o script principal:
     python main.py
 
 
