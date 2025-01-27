@@ -14,6 +14,7 @@ Sumário
 1. Descrição do Projeto:
 
 Este projeto tem como objetivo explorar dados sobre óbitos por capítulos da CID-10 no Brasil, realizando as seguintes etapas:
+
     1.1 Carregamento e limpeza dos dados: Arquivos CSV contendo informações de óbitos por município e ano.
     1.2 Transformação dos dados: Geração de uma coluna de categorias baseada no total de óbitos.
     1.3 Aplicação de algoritmos de classificação: Random Forest e Naive Bayes.
@@ -60,13 +61,13 @@ Resultados Obtidos:
 
 6. Como Executar:
 
-1. Clone este repositório:
+    6.1 Clone este repositório:
     git clone https://github.com/MMoreira020/Classifica-o_Datasus.git
 
-2. Instale os pacotes necessários:
+    6.2 Instale os pacotes necessários:
     pip install -r requirements.txt
 
-3. Execute o script principal:
+    6.3 Execute o script principal:
     python main.py
 
 
