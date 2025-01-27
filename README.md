@@ -1,6 +1,6 @@
 Análise de Dados de Óbitos com Modelos de Classificação
 
-Este projeto utiliza dados do Datasus para analisar óbitos por capítulos da CID-10 no período de 2015 a 2020. Aplicamos técnicas de classificação utilizando modelos como Random Forest e Naive Bayes para categorizar municípios com diferentes níveis de óbitos e identificar padrões significativos nos dados.
+Este projeto utiliza dados do Datasus para analisar óbitos por capítulos da CID-10 no período de 2015 a 2020 e também Nasciemntos no mesmo período. Aplicamos técnicas de classificação utilizando modelos como Random Forest e Naive Bayes para categorizar os anos com diferentes níveis de óbitos e identificar padrões significativos nos dados.
 
 Sumário
 1. Descrição do Projeto
@@ -61,13 +61,13 @@ Resultados Obtidos:
 
 6. Como Executar:
 
-    6.1 Clone este repositório:
+    1. Clone este repositório:
     git clone https://github.com/MMoreira020/Classifica-o_Datasus.git
 
-    6.2 Instale os pacotes necessários:
+    2. Instale os pacotes necessários:
     pip install -r requirements.txt
 
-    6.3 Execute o script principal:
+    3. Execute o script principal:
     python main.py
 
 
