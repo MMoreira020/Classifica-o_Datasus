@@ -3,12 +3,12 @@ Análise de Dados de Óbitos com Modelos de Classificação
 Este projeto utiliza dados do Datasus para analisar óbitos por capítulos da CID-10 no período de 2015 a 2020 e também Nasciemntos no mesmo período. Aplicamos técnicas de classificação utilizando modelos como Random Forest e Naive Bayes para categorizar os anos com diferentes níveis de óbitos e identificar padrões significativos nos dados.
 
 Sumário
-1. Descrição do Projeto
-2. Estrutura dos Dados
-3. Pré-Processamento
-4. Modelos Utilizados
-5. Visualizações e Resultados
-6. Como Executar
+    1. Descrição do Projeto
+    2. Estrutura dos Dados
+    3. Pré-Processamento
+    4. Modelos Utilizados
+    5. Visualizações e Resultados
+    6. Como Executar
 
 
 1. Descrição do Projeto:
