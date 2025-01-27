@@ -60,13 +60,13 @@ Resultados Obtidos:
 
 6. Como Executar:
 
-1. Clone este repositório:
+    1. Clone este repositório:
     git clone https://github.com/MMoreira020/Classifica-o_Datasus.git
 
-2. Instale os pacotes necessários:
+    2. Instale os pacotes necessários:
     pip install -r requirements.txt
 
-3. Execute o script principal:
+    3. Execute o script principal:
     python main.py
 
 
